@@ -69,5 +69,6 @@ public class CalculatorServiceImplParametrizedTest {
                 Arguments.of(8, 2, 4),
                 Arguments.of(21, 3, 7)
         );
+
     }
 }

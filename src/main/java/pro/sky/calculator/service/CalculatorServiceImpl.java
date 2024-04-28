@@ -26,5 +26,6 @@ public class CalculatorServiceImpl implements CalculatorService {
             throw new ZeroDividerException();
         }
         return num1/num2;
+
     }
 }

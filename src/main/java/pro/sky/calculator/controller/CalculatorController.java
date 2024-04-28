@@ -53,6 +53,7 @@ public class CalculatorController {
         }
         int result = calculatorService.multiply(num1, num2);
         return ResponseEntity.ok(num1 + "*" + num2 + " = " + result);
+
     }
 
 }

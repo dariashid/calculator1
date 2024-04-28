@@ -7,5 +7,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 public class ZeroDividerException extends  IllegalArgumentException{
     public ZeroDividerException(){
         super("You can't divide by zero");
+
     }
 }

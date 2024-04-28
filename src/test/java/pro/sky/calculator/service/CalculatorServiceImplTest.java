@@ -45,5 +45,6 @@ public class CalculatorServiceImplTest {
         int result2 = service.divide(6,2);
         assertEquals(3, result2);
         assertThrows(ZeroDividerException.class, () -> service.divide(1,0));
+
     }
 }
