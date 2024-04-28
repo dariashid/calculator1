@@ -19,11 +19,7 @@ public class CalculatorServiceImplParametrizedTest {
     }
 
     private static Stream<Arguments> dataSourceForSumTest() {
-        return Stream.of(
-                Arguments.of(1, 1, 2),
-                Arguments.of(2, 2, 4),
-                Arguments.of(3, 3, 6)
-        );
+        return Stream.of(Arguments.of(1, 1, 2), Arguments.of(2, 2, 4), Arguments.of(3, 3, 6));
     }
 
     @ParameterizedTest
@@ -34,11 +30,7 @@ public class CalculatorServiceImplParametrizedTest {
     }
 
     private static Stream<Arguments> dataSourceForMinusTest() {
-        return Stream.of(
-                Arguments.of(1, 1, 0),
-                Arguments.of(3, 2, 1),
-                Arguments.of(4, 3, 1)
-        );
+        return Stream.of(Arguments.of(1, 1, 0), Arguments.of(3, 2, 1), Arguments.of(4, 3, 1));
     }
 
     @ParameterizedTest
@@ -49,11 +41,7 @@ public class CalculatorServiceImplParametrizedTest {
     }
 
     private static Stream<Arguments> dataSourceForMultiplyTest() {
-        return Stream.of(
-                Arguments.of(2, 2, 4),
-                Arguments.of(3, 3, 9),
-                Arguments.of(5, 5, 25)
-        );
+        return Stream.of(Arguments.of(2, 2, 4), Arguments.of(3, 3, 9), Arguments.of(5, 5, 25));
     }
 
     @ParameterizedTest
@@ -64,11 +52,7 @@ public class CalculatorServiceImplParametrizedTest {
     }
 
     private static Stream<Arguments> dataSourceForDivideTest() {
-        return Stream.of(
-                Arguments.of(6, 2, 3),
-                Arguments.of(8, 2, 4),
-                Arguments.of(21, 3, 7)
-        );
+        return Stream.of(Arguments.of(6, 2, 3), Arguments.of(8, 2, 4), Arguments.of(21, 3, 7));
 
     }
 }
